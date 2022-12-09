@@ -1,4 +1,4 @@
-<h1>정답 코드</h1>
+########### 정답 코드 ##############
 
 N, M = map(int,input().split())
 State = [list(map(int,input().split())) for _ in range(N)]
@@ -101,8 +101,8 @@ for vi_sub in virus_subset:
 if output == 10000000000000: print(-1)
 elif num == 0: print(0)
 else: print(output)
-  
-<h1>틀린 코드 (채점 중 94%에서)</h1>
+
+########### 틀린 코드 (채점 중 94%에서) ##############
 
 N, M = map(int, input().split())
 state = [list(map(int, input().split())) for _ in range(N)]
